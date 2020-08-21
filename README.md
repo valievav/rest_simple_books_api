@@ -23,5 +23,8 @@ Create app:
 2. **Add app books to INSTALLED_APPS from settings.py**
 3. **Create urls.py in books app**
 4. **Update simple_api/urls.py to include urls from books/**
-5. 
+5. **Create superuser for admin** - python manage.py createsuperuser
+6. **Create models in books app**
+7. **Create migrations and migrate** - python manage.py makemigrations -> python manage.py migrate
+8. **Register models in books/admin.py**
 
