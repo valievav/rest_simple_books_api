@@ -28,3 +28,9 @@ Create app:
 7. **Create migrations and migrate** - python manage.py makemigrations -> python manage.py migrate
 8. **Register models in books/admin.py**
 
+REST API:
+1. **Create books/serializer.py** - to convert data to json
+2. **Create books/views.py**
+3. **Register url in books/urls.py** - connected to step 4 'Create app' section
+4. **Open url and check created API endpoint**
+
