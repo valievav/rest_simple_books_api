@@ -9,7 +9,7 @@ WORKFLOW:
 
 Setup:
 1. **Create new project in PyCharm**
-2. **Create env with conda** - conda activate -n simple_api python=3.8 -> conda activate simple_api
+2. **Create env with conda** - conda create -n simple_api python=3.8 -> conda activate simple_api
 3. **Connect new env to PyCharm project**
 4. **Install django, djangorestframework** pip install django djangorestframework
 5. **Create requirements.txt** - pip freeze > requirements.txt
