@@ -5,7 +5,7 @@ from .serializers import AuthorSerializer, BookSerializer, GenreSerializer
 
 class AuthorView(viewsets.ModelViewSet):
     queryset = Author.objects.all()
-    serializer = AuthorSerializer
+    serializer_class = AuthorSerializer
 
 
 class BookView(viewsets.ModelViewSet):
