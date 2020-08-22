@@ -1,5 +1,9 @@
 This repository contains simple REST API project.
 
+![Root API](readme_img/root.png)
+![Books API](readme_img/books.png)
+![Book API](readme_img/book_id.png)
+
 ---
 WORKFLOW:
 
