@@ -17,7 +17,7 @@ Setup:
 7. **Create README.md**
 
 Create project:
-1. **Create project** - django-admin.py startproject
+1. **Create project** - django-admin startproject simple_api
 2. **Add rest_framework to INSTALLED_APPS from settings.py**
 3. **Run init migrations** - python manage.py migrate
 4. **Run empty project** - python manage.py runserver
